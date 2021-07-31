@@ -42,3 +42,47 @@ G:\JULIO\Universidad 2021\Proyecto de Grado 2021\SoftwareCori\Cori\Cori\obj\Debu
 G:\JULIO\Universidad 2021\Proyecto de Grado 2021\SoftwareCori\Cori\Cori\obj\Debug\Cori.FRMListaProducto.resources
 G:\JULIO\Universidad 2021\Proyecto de Grado 2021\SoftwareCori\Cori\Cori\obj\Debug\Cori.FRMRegistrarProducto.resources
 G:\JULIO\Universidad 2021\Proyecto de Grado 2021\SoftwareCori\Cori\Cori\obj\Debug\Cori.PruebaBaseDeDatos.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\Cori.exe.config
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\Cori.exe
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\Cori.pdb
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\AForge.Video.DirectShow.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\AForge.Video.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\CapaAD.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\CapaRN.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\DevComponents.DotNetBar2.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\MySql.Data.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\AForge.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\Google.Protobuf.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\Zstandard.Net.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\BouncyCastle.Crypto.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\Ubiety.Dns.Core.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\System.Memory.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\System.Buffers.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\K4os.Compression.LZ4.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\K4os.Hash.xxHash.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\System.Numerics.Vectors.dll
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\CapaAD.pdb
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\CapaRN.pdb
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\AForge.Video.xml
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\AForge.Video.DirectShow.xml
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\DevComponents.DotNetBar2.xml
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\MySql.Data.xml
+G:\JULIO\Universidad\Clone\Cori\Cori\bin\Debug\AForge.xml
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.csproj.AssemblyReference.cache
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMConfigurar.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMListaClientes.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMListaProducto.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMListaUsuario.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMPrincipal.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMRegistrarProducto.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMRegistrarCliente.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.FRMRegistrarUsuario.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.Properties.Resources.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.PruebaBaseDeDatos.resources
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.csproj.GenerateResource.cache
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.csproj.CoreCompileInputs.cache
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.csproj.CopyComplete
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.exe
+G:\JULIO\Universidad\Clone\Cori\Cori\obj\Debug\Cori.pdb

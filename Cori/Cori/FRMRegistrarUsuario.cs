@@ -236,6 +236,7 @@ namespace Cori
             if (DatosIntegridad())
             {
                 //falta añadir codigo
+                MessageBox.Show("haber que passa");
             }
 
         }
