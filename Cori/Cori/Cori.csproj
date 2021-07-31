@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9159825D-00E0-4366-91CF-BF05F74B95BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cori</RootNamespace>
+    <AssemblyName>Cori</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\AForge.NET\Framework\Release\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\AForge.NET\Framework\Release\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRMListaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMListaClientes.Designer.cs">
+      <DependentUpon>FRMListaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMListaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMListaProducto.Designer.cs">
+      <DependentUpon>FRMListaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMListaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMListaUsuario.Designer.cs">
+      <DependentUpon>FRMListaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMPrincipal.Designer.cs">
+      <DependentUpon>FRMPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMConfigurar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMConfigurar.Designer.cs">
+      <DependentUpon>FRMConfigurar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMRegistrarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMRegistrarProducto.Designer.cs">
+      <DependentUpon>FRMRegistrarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMRegistrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMRegistrarCliente.Designer.cs">
+      <DependentUpon>FRMRegistrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMRegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMRegistrarUsuario.Designer.cs">
+      <DependentUpon>FRMRegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebaBaseDeDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PruebaBaseDeDatos.Designer.cs">
+      <DependentUpon>PruebaBaseDeDatos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FRMConfigurar.resx">
+      <DependentUpon>FRMConfigurar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMListaClientes.resx">
+      <DependentUpon>FRMListaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMListaProducto.resx">
+      <DependentUpon>FRMListaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMListaUsuario.resx">
+      <DependentUpon>FRMListaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPrincipal.resx">
+      <DependentUpon>FRMPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMRegistrarProducto.resx">
+      <DependentUpon>FRMRegistrarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMRegistrarCliente.resx">
+      <DependentUpon>FRMRegistrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMRegistrarUsuario.resx">
+      <DependentUpon>FRMRegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PruebaBaseDeDatos.resx">
+      <DependentUpon>PruebaBaseDeDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaAD\CapaAD.csproj">
+      <Project>{e69fa4e2-a1c5-4f76-bf2c-1bedd8bf0f3e}</Project>
+      <Name>CapaAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaRN\CapaRN.csproj">
+      <Project>{ae7a3f05-3408-457b-84dc-74f5cf30a775}</Project>
+      <Name>CapaRN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capturarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporteUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgUsuario.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bebida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libroVenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libroFactura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libroCaja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exportar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\importar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negocio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dosificacion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acercade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregarCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizarCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminarCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporteCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abrirUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminarUsuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgProducto.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregarProducto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizarProducto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminarProducto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporteProducto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarUsuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,2 @@
+23/07/2021 07:01:50 p. m.|select papsidpers,capsnomper,capsapepat,capsapemat,capscipers,capscelula,capsdirecc,capsestper from aperson where papsidpers='PE00003' or capscipers='78893212'|Unknown column 'capsestper' in 'field list'
+29/07/2021 07:41:17 p. m.|select papsidpers,capsnomper,capsapepat,capsapemat,capscipers,capscelula,capstelefo,capsdirecc from aperson where papsidpers = 'PE-000000000001' or capscipers = '7222710'|Unknown column 'capstelefo' in 'field list'
